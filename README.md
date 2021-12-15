@@ -1,2 +1,3 @@
-# landingpage
-Landing Page project from The Odin Project | Foundations
+# Landing Page
+A Landing page created using HTML & CSS. Flexbox is used for alignment on the page.
+Part of The Oding Project | Foundations
