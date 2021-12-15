@@ -1,4 +1,27 @@
-body {
+.container {
+    display: flex
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero.links {
+    display: flex;
+    list-style-type: none;
+}
+
+#hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero-left {
     display: flex;
     flex-direction: column;
+}
+
+a {
+    text-decoration: none;
 }
