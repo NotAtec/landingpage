@@ -10,12 +10,13 @@ body {
     padding-right: 16vw;
     background-color: #1f2937;
     gap: 16px;
+    align-items: center;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
   padding-bottom: 32px;
+  width: 842px;
 }
 
 ul {
@@ -28,6 +29,7 @@ ul {
   justify-content: space-between;
   padding-bottom: 24px;
   gap: 16px;
+  max-width: 842px;
 }
 
 body {
@@ -87,13 +89,11 @@ button.cta {
 /* Testimonial */
 .testimonial {
   background-color: #E5E7EB;
-  padding: 48px 0;
+  padding: 48px 16vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 16vw;
-  padding-right: 16vw;
 }
 
 .centering {
@@ -101,6 +101,7 @@ button.cta {
   flex-direction: column;
   align-items: flex-end;
   padding: 0 8vw;
+  max-width: 790px;
 }
 
 .quote {
@@ -113,5 +114,16 @@ button.cta {
 }
 
 /* Call to Action */
+.call-to-action {
+  padding: 48px 16vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.cta.bottom {
+  padding: 32px 96px;
+  border-radius: 8px;
+  display: flex;
+}
 /* Footer */
