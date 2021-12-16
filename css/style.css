@@ -103,7 +103,6 @@ button.cta {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 0 8vw;
   max-width: 790px;
 }
 
