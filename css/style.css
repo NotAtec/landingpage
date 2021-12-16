@@ -116,7 +116,8 @@ button.cta {
 .random-image {
   border: 3px solid #3882F6;
   border-radius: 8px;
-  margin-bottom: 8px;
+  overflow: hidden;
+  max-height: 144px;
 }
 .illustrations {
   display: flex;
@@ -130,6 +131,7 @@ button.cta {
   text-align: center;
   max-width: 150px;
   color: darkslategray;
+  gap: 6px;
 }
 
 /* Testimonial */
