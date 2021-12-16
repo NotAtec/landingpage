@@ -122,6 +122,8 @@ button.cta {
 .illustrations {
   display: flex;
   max-width: 790px;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 32px;
 }
 
