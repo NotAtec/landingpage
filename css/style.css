@@ -65,13 +65,16 @@ ul {
 }
 
 #hero-left {
-  max-width: 458px;
+  max-width: 55%;
 }
 
 #heroimg-container {
   overflow: hidden;
 }
 
+#heroimg {
+  max-width: 100%;
+}
 a {
   text-decoration: none;
   color: #E5E7EB;
