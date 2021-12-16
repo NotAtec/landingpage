@@ -6,6 +6,7 @@ body {
 .hero-container {
   padding-left: 16vw;
   padding-right: 16vw;
+  padding-bottom: 48px;
   background-color: #1f2937;
   gap: 16px;
   display: flex;
@@ -79,6 +80,7 @@ ul {
 .cta {
   background-color: #3882F6;
 }
+
 button.cta {
   padding: 8px 24px;
   border-radius: 8px;
@@ -126,6 +128,38 @@ button.cta {
 .cta.bottom {
   padding: 32px 96px;
   border-radius: 8px;
-  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 842px;
 }
+
+.cta-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.cta-reverse {
+  border: 2px solid white;
+  background-color: transparent;
+  color: #F9FAF8;
+  font-weight: bold;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.cta.text,
+.cta.title {
+  color: #F9FAF8;
+}
+
+.cta.title {
+  font-weight: bold;
+  font-size: large;
+}
+
 /* Footer */
