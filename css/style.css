@@ -47,9 +47,18 @@ body {
   padding-top: 16px;
 }
 
+.hero-left {
+  max-width: 458px;
+}
+.heroimg-container {
+  overflow: hidden;
+  box-sizing: border-box;
+}
 #heroimg {
   max-width: 500px;
   max-height: 250px;
+
+  margin: 0 70px 0 -70px;
 }
 
 a {
@@ -90,6 +99,38 @@ button.cta {
 }
 
 /* Random Information */
+.random-info {
+  display: flex;
+  padding: 48px 16vw;
+  align-items: center;
+  flex-direction: column;
+}
+
+.random.title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.random-image {
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.illustrations {
+  display: flex;
+  max-width: 790px;
+  gap: 32px;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 150px;
+  color: darkslategray;
+}
 
 /* Testimonial */
 .testimonial {
