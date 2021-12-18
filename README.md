@@ -1,7 +1,13 @@
 # Landing Page
-A Landing page created using HTML & CSS. Flexbox is used for alignment on the page. 
+A simple responsive placeholder landing page. Designed to a given specification.
 
-Part of The Odin Project | Foundations
+First go at (semi-)responsive design, and first proper use of flexbox to place contents on page.
+
+## Built With
+- HTML
+- CSS
+    - Flexbox
+    
 
 ## Image Credits
 In order of appearance:
