@@ -3,6 +3,8 @@ A simple responsive placeholder landing page. Designed to a given specification.
 
 First go at (semi-)responsive design, and first proper use of flexbox to place contents on page.
 
+[Live Preview](https://notatec.github.io/landingpage/) <--
+
 ## Built With
 - HTML
 - CSS
